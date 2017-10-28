@@ -27,6 +27,9 @@ class Robot
 
   def workday?(today)
     today != day_off
+    #day_off is true
+    #therefore today = day_off
+    #therefore, we should get false
   end
 
 end
